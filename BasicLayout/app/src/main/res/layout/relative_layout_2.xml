@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Agree"
+        android:layout_below="@+id/imgView"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/radioCheckMan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_below="@+id/check"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/radioCheckWoman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_below="@+id/radioCheckMan" />
+
+
+</RelativeLayout>
