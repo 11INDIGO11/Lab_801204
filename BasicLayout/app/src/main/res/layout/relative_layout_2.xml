@@ -13,23 +13,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="I Agree"
-        android:layout_below="@+id/imgView"
-        android:checked="true"/>
+        android:layout_below="@+id/imgView"/>
 
-    <RadioButton
-        android:id="@+id/radioCheckMan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Male"
+    <RadioGroup
+
         android:layout_below="@+id/check"
-        android:checked="true"/>
-
-    <RadioButton
-        android:id="@+id/radioCheckWoman"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Male"
-        android:layout_below="@+id/radioCheckMan" />
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+
+
+    </RadioGroup>
 
 
 </RelativeLayout>
