@@ -11,19 +11,25 @@
 
     <View
         android:id="@+id/yellow"
-        android:layout_width="64dp"
+        android:layout_width="128dp"
         android:layout_height="64dp"
         android:background="#ffff00"
         android:layout_toRightOf="@+id/red"/>
+
     <View
         android:id="@+id/green"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="#FF00FF00"
-        android:layout_below="@+id/yellow"
-        android:layout_toRightOf="@+id/red"/>
+        android:layout_below="@+id/red"
+        android:layout_alignRight="@+id/yellow"/>
 
-
-
+    <View
+        android:id="@+id/blue"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:background="#ff0000ff"
+        android:layout_alignRight="@+id/green"
+        android:layout_below="@+id/green"/>
 
 </RelativeLayout>
