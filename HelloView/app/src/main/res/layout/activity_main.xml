@@ -20,6 +20,11 @@
             android:src="@drawable/maxresdefault"/>
     </FrameLayout>
 
+    <Button
+        android:layout_width="120"
+        android:layout_height="60"
+        android:text="ตรวจสอบข้อมูล"/>
+
 
 
 
