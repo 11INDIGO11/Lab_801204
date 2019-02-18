@@ -23,7 +23,12 @@
     <Button
         android:layout_width="120dp"
         android:layout_height="60dp"
-        android:text="ตรวจสอบข้อมูล"/>
+        android:text="@string/btn_validate"
+        android:background="@drawable/selector_btn_validate"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:selectAllOnFocus="true"
+        android:layout_marginBottom="20dp"/>
 
 
 
