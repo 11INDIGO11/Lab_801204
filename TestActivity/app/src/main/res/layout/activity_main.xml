@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/Wilson"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keittisuk Ruksachob"
+                android:textSize="23dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/userid1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13600166"
+                android:textSize="23dp"
+                android:layout_marginLeft="5dp"
+
+            <Button
+                android:id="@+id/btnList1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See more"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/Wigfrid"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="namusakan Ruksachob"
+                android:textSize="23dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/userid2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13600989"
+                android:textSize="23dp"
+                android:layout_marginLeft="5dp"/>
+            <Button
+                android:id="@+id/btnList2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See more"/>/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/BigWendy"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nammon Ruksachob"
+                android:textSize="23dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/userid3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13600999"
+                android:textSize="23dp"
+                android:layout_marginLeft="5dp"/>
+            <Button
+                android:id="@+id/btnList3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See more"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
